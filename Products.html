@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadi</title>
+    <link rel="stylesheet" href="/Style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/About.html">about</a></li>
+            <li><a href="/Products.html">Products</a></li>
+            <li><a href="/index.html">Home</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h2>قائمة العقارات</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>العقار</th>
+                    <th>نوع العقار</th>
+                    <th>سعر الإيجار</th>
+                    <th>مدة الإيجار</th>
+                    <th>التفاصيل</th>
+                    <th>إختر العقار</th>
+                </tr>
+            </thead>
+            <tbody id="property-details">
+            </tbody>
+        </table>
+
+        <div id="formContainer">
+            <form id="userDataForm">
+                <div>
+                    <label for="username">أسم المستخدم:</label>
+                    <input type="text" id="username" name="username" placeholder="أدخل اسمك بالعربية" required>
+                </div>
+                <div>
+                    <label for="nationalId">الرقم الوطني:</label>
+                    <input type="text" id="nationalId" name="nationalId" placeholder="رقم الهوية" required minlength="11" maxlength="11">
+                </div>
+                <div>
+                    <label for="dob">تاريخ الميلاد:</label>
+                    <input type="text" id="dob" name="dob" placeholder="dd-mm-yyyy" pattern="\d{2}-\d{2}-\{4}" required>
+                </div>
+                <div>
+                    <label for="phoneNumber">رقم الموبايل:</label>
+                    <input type="text" id="phoneNumber" name="phoneNumber" placeholder="09XXXXXXXX" pattern="09\d{8}" required>
+                </div>
+                <div>
+                    <label for="email">البريد الإلكتروني:</label>
+                    <input type="email" id="email" name="email" placeholder="example@example.com" required>
+                </div>
+                <div>
+                    <label for="captcha">رمز التحقق:</label>
+                    <input type="text" id="captcha" name="captcha" placeholder="أدخل رمز التحقق" required>
+                    <span id="captchaText"></span>
+                    <button type="button" onclick="generateCaptcha()">تغيير الرمز</button>
+                </div>
+                <button type="submit">إرسال</button>
+                <button type="button" onclick="cancelForm()">إلغاء</button>
+            </form>
+        </div>
+
+        <center>
+            <button class="BU">متابعة</button>
+        </center>
+    </div>
+
+
+
+    
+
+    <script src="/main.js"></script>
+</body>
+</html>

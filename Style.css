@@ -1,0 +1,269 @@
+body {
+  font-family: Arial, sans-serif;
+  direction: rtl;
+}
+
+#Logo{
+    position: fixed;
+    right: 300px;
+    top: 15%;
+}
+
+
+#Text1{
+    position: fixed;
+    font-size: 35px;
+    right: 57.5%;
+    top: 35%;
+    color: #141414;
+}
+
+#Text2{
+    position: absolute;
+    font-size: 25px;
+    top: 42%;
+    right: 57%;
+    color:#696969;
+    
+}
+
+#Text3{
+  position: absolute;
+  margin-top: 5px;
+  font-size: 25px;
+  color:#696969;
+  top: 10%;
+  
+}
+
+#BUT{
+    position: fixed;
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    right: 76.8%;
+    top: 57%;
+}
+
+
+nav {
+  padding: 10px 0; /* تباعد داخلي للشريط */
+  text-align: center; /* توسيط العناصر داخل الـ nav */
+}
+
+ul {
+  list-style-type: none; /* إزالة نقاط القائمة */
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: inline; /* عرض العناصر بجانب بعضها */
+  margin: 0 15px; /* تباعد بين العناصر */
+}
+
+a {
+  text-decoration: none; /* إزالة تزيين الروابط */
+  color: black; /* لون النص الافتراضي */
+  font-size: 18px; /* حجم الخط */
+  padding: 10px 15px; /* تباعد داخلي للروابط */
+  transition: all 0.3s ease; /* تأثير التحويل */
+}
+
+a:hover {
+  background-color: transparent; /* خلفية شفافة عند التحويم */
+  color: #555; /* لون النص عند التحويم */
+  border-bottom: 2px solid #555; /* تغيير شكل الرابط عند التحويم */
+}
+
+
+        
+          
+          .container {
+            width: 80%;
+            margin: 20px auto;
+          }
+          
+          table {
+            width: 100%;
+            border-collapse: collapse;
+            border: 1px solid rgb(208, 194, 194);
+          }
+          
+          th, td {
+            padding: 8px;
+            text-align: center;
+            border-bottom: 1px solid #0f0e0e;
+          }
+          
+          th {
+            background-color: #f2f2f2;
+          }
+          
+          button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 8px 12px;
+            border: none;
+            cursor: pointer;
+          }
+          
+          button:hover {
+            background-color: #45a049;
+          }
+          
+          .expanded-details {
+            display: none;
+          }
+          
+          .expanded-details.active {
+            display: table-row;
+          }
+        
+          .BU{
+        width: auto;
+        height:auto ;
+        width: 10%;
+        height: 5%;
+        }
+        
+        
+        
+        .images-container img {
+          width: 200px; 
+          margin: 5px;;
+          height: auto; 
+        }
+            
+
+
+
+
+
+
+
+
+
+
+
+/* Add this to your CSS file (Style.css) */
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+.expanded-details {
+  display: none;
+}
+
+.expanded-details.active {
+  display: table-row;
+}
+
+.details-content img {
+  max-width: 100px;
+  margin: 5px;
+}
+
+/* Form Styles */
+#formContainer {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  max-width: 500px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  overflow: auto;
+}
+
+#userDataForm div {
+  margin-bottom: 15px;
+}
+
+#userDataForm label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#userDataForm input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+#userDataForm button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+/* Captcha Styles */
+#captchaText {
+  display: inline-block;
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #ddd;
+  border-radius: 3px;
+}
+
+
+.container {
+  width: 80%;
+  margin: 20px auto; 
+  text-align: center; 
+}
+
+
+
+
+
+
+
+
+
+
+
